@@ -1,4 +1,3 @@
-package codes;
 import java.util.Scanner;
 
 public class AddTwoNumbers {
@@ -14,5 +13,6 @@ public class AddTwoNumbers {
         int sum = first + second;
 
         System.out.println("The sum is: " + sum);
+        input.close();
     }
 }

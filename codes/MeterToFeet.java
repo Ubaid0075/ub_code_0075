@@ -10,5 +10,6 @@ public class MeterToFeet {
         double feet = meters * 3.28084;
 
         System.out.println("Distance in feet: " + feet);
+        input.close();
     }
 }
